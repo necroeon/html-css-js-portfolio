@@ -207,10 +207,10 @@
 
 
         .skills-container { display: flex; justify-content: center; gap: 10px; }
-        .skill-tile { width: 100px; height: 100px; background: gray; display: flex; align-items: center; justify-content: center; border-radius: 10px; }
+        .skill-tile { width: 70px; height: 70px; background: gray; display: flex; align-items: center; justify-content: center; border-radius: 10px; }
         .project, .certificate, .work-experience { text-align: left; margin-bottom: 20px; }
         .contact-container { display: flex; justify-content: center; gap: 20px; }
-        .contact-tile { width: 100px; height: 100px; background: gray; display: flex; align-items: center; justify-content: center; border-radius: 10px; }
+        .contact-tile { width: 60px; height: 60px; background: gray; display: flex; align-items: center; justify-content: center; border-radius: 10px; }
         .profile-pic {
             width: 15vw; /* Relative to viewport width */
             height: 15vw; /* Keeps it square */
@@ -247,6 +247,8 @@
         margin-top: 16vh;
     }
 }
+
+.github, .email, .linkedin { width: 50px; height: 50px; object-fit: cover; }
 
 
     </style>
@@ -300,9 +302,9 @@
                 <div class="skill-tile">C++</div>
                 <div class="skill-tile">HTML</div>
                 <div class="skill-tile">CSS</div>
-                <div class="skill-tile">JavaScript</div>
+                <div class="skill-tile">JS</div>
                 <div class="skill-tile">Python</div>
-                <div class="skill-tile">MARIE.js</div>
+                <div class="skill-tile">MARIE</div>
             </div>
         </div>
     </section>
@@ -352,7 +354,7 @@
     <section id="education">
         <div class="container">
             <h2 class="gradient-text">Education</h2>
-            <p>Bachelor's in Computer Science, Concordia University</p>
+            <p style="text-align: center; width: 50%;margin: auto; display: block ;">Bachelor's in Computer Science, Concordia University</p>
             <div class= "courses" style ="text-align: justify; width: 50%;margin: auto; display: block;">
             <li>Object-Oriented Programming: Learned to design and implement software using object-oriented principles like classes, inheritance, 
                 polymorphism, encapsulation, ArrayList and LinkedList</li>
@@ -378,7 +380,7 @@
                 </ul>
             </div>
             <div class="work-experience" style ="text-align: justify; width: 50%;margin: auto; display: block;">
-                <h3>V12 Trackside International(Formula 1)</h3>
+                <h3>V12 Trackside International (Formula 1)</h3>
                 <h4>Sales Representative (June - Sept, 2024)</h4>
                 <ul>
                     <li>Identify and target potential customers through various channels, including online research and events</li>
